@@ -1,0 +1,8 @@
+digraph g{
+78331[label="78331, size:5"];78331 -> 18547 [color = red, style=dotted];
+18547[label="18547, size:3"];18547 -> 6792 [color = red, style=dotted];
+6792[label="6792, size:1"];6792 -> 18547 [color = blue, style=dotted];
+18547 -> 54741 ;
+54741[label="54741, size:1"];54741 -> 78331 [color = blue, style=dotted];
+78331 -> 83221 ;
+83221[label="83221, size:1"];}
